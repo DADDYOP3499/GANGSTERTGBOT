@@ -96,7 +96,7 @@ bomb_ettu = [
 def bombs(bot: Bot, update: Update):
     msg = update.effective_message.reply_text('💣') 
     for x in range(EDIT_TIMES):
-        msg.edit_text(bomb_ettu[x%5])
+        msg.edit_text(bomb_ettu[x%9])
         time.sleep(EDIT_SLEEP)
     msg.edit_text('RIP PLOX...')
 
