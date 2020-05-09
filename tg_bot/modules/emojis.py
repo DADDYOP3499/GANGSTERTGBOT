@@ -144,6 +144,7 @@ HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER =DisableAbleCommandHandler("bombs",bombs)
 dispatcher.add_handler(LOVE_HANDLER)
 dispatcher.add_handler(HACK_HANDLER)
+dispatcher.add_handler(BOMBS_HANDLER)
 
 __mod_name__ = "EMOJIS"
 __command_list__ = ["love", "hack", "bombs"]
