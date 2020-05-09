@@ -207,7 +207,7 @@ def love(bot: Bot, update: Update):
 def viruss(bot: Bot, update: Update):
     msg = update.effective_message.reply_text('🔥') 
     for x in range(EDIT_TIMES):
-        msg.edit_text(bomb_ettu[x%5])
+        msg.edit_text(viruss_ettu[x%5])
         time.sleep(EDIT_SLEEP)
     msg.edit_text('😅')
 
