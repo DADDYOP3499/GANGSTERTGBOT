@@ -23,7 +23,7 @@ EDIT_TIMES = 10
 #sleep how many times after each edit in 'bombs' 
 EDIT_SLEEP = 1
 #edit how many times in 'bombs' 
-EDIT_TIMES = 10
+EDIT_TIMES = 9
 
 
 
@@ -44,7 +44,10 @@ EDIT_TIMES = 10
 
 
 
-
+#sleep how many times after each edit in 'moonanimation' 
+EDIT_SLEEP = 1
+#edit how many times in 'moonanimation' 
+EDIT_TIMES = 32
 
 
 
@@ -88,6 +91,62 @@ bomb_ettu = [
              "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n💥💥💥💥\n💥💥💥💥",
              "▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n▪️▪️▪️▪️\n😵😵😵😵",
 ]
+
+
+
+moon_ani = [
+            "🌗",
+            "🌘",    
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",    
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",    
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖",
+            "🌗",
+            "🌘",    
+            "🌑",
+            "🌒",
+            "🌓",
+            "🌔",
+            "🌕",
+            "🌖"
+ ]
+
+
+
+
+
+@user_admin
+@run_async
+def moonanimation(bot: Bot, update: Update):
+    msg = update.effective_message.reply_text('🌚') 
+    for x in range(EDIT_TIMES):
+        msg.edit_text(moon_ani[x%32])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text('🌙')
+
+
+
+
+
+
 
 
 
@@ -147,7 +206,7 @@ __help__ = """
 
 - /bombs 💣
 
-
+- /moonanimation 🌚
 """
 
 
@@ -155,12 +214,13 @@ __help__ = """
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER =DisableAbleCommandHandler("bombs",bombs)
-
+MOONANIMATION_HANDLER =DisableAbleCommandHandler("moonanimation",moonanimation)
 dispatcher.add_handler(LOVE_HANDLER)
 dispatcher.add_handler(HACK_HANDLER)
 dispatcher.add_handler(BOMBS_HANDLER)
+dispatcher.add_handler(MOONANIMATION_HANDLER)
 
 
 __mod_name__ = "EMOJIS"
-__command_list__ = ["love", "hack", "bombs"]
-__handlers__ = [LOVE_HANDLER, HACK_HANDLER, BOMBS_HANDLER]
+__command_list__ = ["love", "hack", "bombs", "moonanimation"]
+__handlers__ = [LOVE_HANDLER, HACK_HANDLER, BOMBS_HANDLER, MOONANIMATION_HANDLER]
