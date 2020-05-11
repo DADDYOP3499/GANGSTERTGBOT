@@ -3,16 +3,8 @@
 ***⚠️USE THIS REPO AT YOUR OWN RISK***
 
 
- ❌Liability
-
-
-
- ❌Warranty
-
-
  
- 
-
+GENERATED FROM [THIS REPOSITORY](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 
 
