@@ -51,7 +51,10 @@ EDIT_TIMES = 32
 
 
 
-
+#sleep how many times after each edit in 'moonanimation' 
+EDIT_SLEEP = 1
+#edit how many times in 'moonanimation' 
+EDIT_TIMES = 11
 
 
 
@@ -131,6 +134,35 @@ moon_ani = [
 
 
 
+clock_ani = [
+            "🕙",
+            "🕘",    
+            "🕗",
+            "🕖",
+            "🕕",
+            "🕔",
+            "🕓",
+            "🕒",
+            "🕑",
+            "🕐",
+            "🕛"
+
+]
+
+@user_admin
+@run_async
+def clockanimation(bot: Bot, update: Update):
+    msg = update.effective_message.reply_text('🕛') 
+    for x in range(EDIT_TIMES):
+        msg.edit_text(clock_ani[x%11])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text('🕚')
+
+
+
+
+
+
 
 
 @user_admin
@@ -207,6 +239,8 @@ __help__ = """
 - /bombs 💣
 
 - /moonanimation 🌚
+
+- /clockanimation 🕛
 """
 
 
@@ -215,12 +249,14 @@ LOVE_HANDLER = DisableAbleCommandHandler("love", love)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER =DisableAbleCommandHandler("bombs",bombs)
 MOONANIMATION_HANDLER =DisableAbleCommandHandler("moonanimation",moonanimation)
+CLOCKANIMATION_HANDLER =DisableAbleCommandHandler("clockanimation",clockanimation)
 dispatcher.add_handler(LOVE_HANDLER)
 dispatcher.add_handler(HACK_HANDLER)
 dispatcher.add_handler(BOMBS_HANDLER)
 dispatcher.add_handler(MOONANIMATION_HANDLER)
+dispatcher.add_handler(CLOCKANIMATION_HANDLER)
 
 
 __mod_name__ = "EMOJIS"
-__command_list__ = ["love", "hack", "bombs", "moonanimation"]
-__handlers__ = [LOVE_HANDLER, HACK_HANDLER, BOMBS_HANDLER, MOONANIMATION_HANDLER]
+__command_list__ = ["love", "hack", "bombs", "moonanimation", "clockanimation"]
+__handlers__ = [LOVE_HANDLER, HACK_HANDLER, BOMBS_HANDLER, MOONANIMATION_HANDLER, CLOCKANIMATION_HANDLER]
