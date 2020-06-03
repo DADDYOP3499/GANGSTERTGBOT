@@ -39,7 +39,7 @@ EDIT_TIMES = 10
 
 
 
-#sleep how many times after each edit in 'moonanimation' 
+#sleep how many times after each edit in 'earthanimation' 
 EDIT_SLEEP = 1
 #edit how many times in 'earthanimation' 
 EDIT_TIMES = 18
@@ -52,21 +52,21 @@ EDIT_TIMES = 32
 
 
 
-#sleep how many times after each edit in 'moonanimation' 
+#sleep how many times after each edit in 'clockanimation' 
 EDIT_SLEEP = 1
 #edit how many times in 'clockanimation' 
 EDIT_TIMES = 11
 
 
-#sleep how many times after each edit in 'moonanimation' 
+#sleep how many times after each edit in 'blockanimation' 
 EDIT_SLEEP = 1
 #edit how many times in 'blockanimation' 
 EDIT_TIMES = 18
 
 
-#sleep how many times after each edit in 'moonanimation' 
+#sleep how many times after each edit in 'kill' 
 EDIT_SLEEP = 1
-#edit how many times in 'blockanimation' 
+#edit how many times in 'kill' 
 EDIT_TIMES = 12
 
 
@@ -359,7 +359,7 @@ __help__ = """
 
 - /blockanimation 🟥
 
-- /kill
+- /kill ⚰
 
 """
 
