@@ -324,7 +324,7 @@ __help__ = """
 
 - /blockanimation 🟥
 
-- /dart 🎯
+
 """
 
 
