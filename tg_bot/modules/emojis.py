@@ -336,7 +336,7 @@ def love(bot: Bot, update: Update):
 def kill(bot: Bot, update: Update):
     msg = update.effective_message.reply_text('🔫') 
     for x in range(EDIT_TIMES):
-        msg.edit_text(kill_you[x%5])
+        msg.edit_text(kill_you[x%12])
         time.sleep(EDIT_SLEEP)
     msg.edit_text('⚰')
 
@@ -364,7 +364,7 @@ __help__ = """
 """
 
 
-KILL_HANDLER = DisableAbleCommandHandler("love",love)
+KILL_HANDLER = DisableAbleCommandHandler("kill",kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER = DisableAbleCommandHandler("bombs",bombs)
