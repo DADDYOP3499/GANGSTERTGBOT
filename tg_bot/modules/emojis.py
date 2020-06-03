@@ -323,6 +323,8 @@ __help__ = """
 - /earthanimation 🌍
 
 - /blockanimation 🟥
+
+- /dart 🎯
 """
 
 
