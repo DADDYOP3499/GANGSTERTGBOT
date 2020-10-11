@@ -1,4 +1,6 @@
 
+# This is a official TELEGRAM BOT FOR RDX GANGA
+
 
 ***⚠️USE THIS REPO AT YOUR OWN RISK***
 
@@ -9,7 +11,7 @@ GENERATED FROM [THIS REPOSITORY](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 
 
-[![phantom](https://telegra.ph/file/72b6a2032bd19642ff759.jpg)]
+[![RDX](https://telegra.ph/file/7da7c176e9bd843db2063.jpg)]
 
 
 
