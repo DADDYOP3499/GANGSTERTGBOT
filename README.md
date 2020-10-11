@@ -1,5 +1,5 @@
 
-# This is a official TELEGRAM BOT FOR RDX GANGA
+# This is a official TELEGRAM BOT OF GANGSTER for GROUP MANAGEMENT on TG
 
 
 ***⚠️USE THIS REPO AT YOUR OWN RISK***
