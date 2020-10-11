@@ -27,7 +27,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-https://telegra.ph/file/84283a3568dd75893d793.jpg
+THANKS TO --> [GANGSTER](https://t.me/alongangster)
 
 
 HOI    {}, MY NAME IS {} !
@@ -35,6 +35,7 @@ HOI    {}, MY NAME IS {} !
 I AM A GROUP MANAGER BOT MAINTAINED BY 
 
 [My master](tg://user?id={}).
+
 [Developer](https://t.me/Alongangster)
 
 
