@@ -16,7 +16,7 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
-         "value": "CAADBQADJQEAAqQAARBXMCXC-vwOIZcC"
+         "value": "CAACAgUAAx0CSCxdOQADaF-DHkTSTQS\_ltkuaUe7wzf617yFAAI0AQAC8feaLcLm0INykwt6GwQ"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -33,11 +33,11 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "1164567526"
+         "value": "123"
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "@Nixonbolt"
+         "value": "Please fill your username "
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
