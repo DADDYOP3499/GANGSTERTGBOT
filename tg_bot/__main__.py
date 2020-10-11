@@ -38,7 +38,8 @@ HOI    {}, MY NAME IS {} !
 
 I AM A GROUP MANAGER BOT MAINTAINED BY 
 
-[THIS LEGEND](tg://user?id={}).
+[My master](tg://user?id={}).
+[CREATOR](https://t.me/Alongangster)
 
 HIT HELP FOR COMMANDS  /help
 """
@@ -154,7 +155,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
 
     else:
-        update.effective_message.reply_text("Yo, whadup?🤧")
+        update.effective_message.reply_text("abbe lavde aapna kaam kar na apan zinda hai")
 
 
 def send_start(bot, update):
