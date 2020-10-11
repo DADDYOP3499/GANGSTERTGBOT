@@ -11,7 +11,7 @@ GENERATED FROM [THIS REPOSITORY](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 
 
-[![RDX](https://telegra.ph/file/7da7c176e9bd843db2063.jpg)]
+[![GANGSTER TG BOT](https://telegra.ph/file/4098a9b1299d70dbfc981.jpg)]
 
 
 
