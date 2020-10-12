@@ -30,6 +30,11 @@ PM_START_TEXT = """
 THANKS TO --> [GANGSTER](https://t.me/alongangster)
 
 
+
+https://telegra.ph/file/7b67e2746ba497cc17046.jpg
+
+
+
 HOI    {}, MY NAME IS {} !
 
 I AM A GROUP MANAGER BOT MAINTAINED BY 
